@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.banxin {
+    width: 850px;
+    margin: 0 auto;
+}
+header {
+    height: 63px;
+    line-height: 63px;
+}
+.logo {
+    width: 120px;
+    background: url(img/logo.png) no-repeat left;
+    background-size: 100%;
+    text-indent: -999em;
+    float: left;
+}
+.head-nav {
+    height: 63px;
+    line-height: 63px;
+    float: left;
+}
+.head-nav ul {
+    margin-left: 20px;
+}
+.head-nav li {
+    list-style: none;
+    line-height: 63px;
+    float: left;
+    height: 63px;
+    box-sizing: border-box;
+}
+.head-nav li a {
+    color: #323a43;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.head-nav li:hover a{
+    background-color: #31c27c;/*
+    border: 1px solid #58cd94;*/
+    color: #fff;
+}
+.head-nav li:hover {
+    background-color: #31c27c;
+}
+.search {
+    position: relative;
+    margin-right: 16px;
+}
+.search input {
+    height: 28px;
+    width: 156px;
+    padding-left: 8px;
+    border: 1px solid #cfcfcf;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.search a {
+    height: 20px;
+    width: 20px;
+    background: url(img/search.png) no-repeat -8px -3px;
+    position: absolute;
+    right:5px;
+    top: 23px;
+}
+.search a img {
+    height: 20px;
+    width: 20px;
+}
+.head-right {
+    line-height: 63px;
+    float: right;  
+}
+.head-right .search {
+    line-height: 63px;
+    float: left;
+}
+.head-right a {
+    color: #4a4846;
+    font-size: 14px;
+    float: left;
+    text-decoration: none;
+}
+.head-right button {
+    height: 27px;
+}
+.head-right .lv-daimen {
+    background-color: #31c27c;
+    border: 0;
+    font-size: 12px;
+    line-height: 27px;
+    padding: 0 6px;
+    border: 1px solid #17ba6b;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 16px;
+}
+.head-right .money-pag {
+    padding: 0 6px;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    font-size: 12px;
+}
+.show {
+    height: 520px;
+    background: url(img/bg.jpg) no-repeat 100%;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #929292;
+
+}
+.show .banxin {
+    position: relative;
+}
+.new-song {
+    font-size: 40px;
+    color: #fff;
+    font-family: "宋体";
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.show-link {
+    width: 390px;
+    margin: 0 auto;
+    position: relative;
+}
+.show-link li {
+    float: left;
+    padding: 0 25px;
+}
+.show-link a {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+.show-link a:hover {
+    color: #fff;
+}
+.more  a {
+    height: 30px;
+    font-size: 12px;
+    color: #cbcbcb;
+    position: absolute;
+    right: -229px;
+    top: 8px; 
+}
+img {
+    transition: all 1s;
+}
+.recommend {
+    width: 852px;
+    margin-top: 20px;
+}
+.recommend li {
+    width: 213px;
+    height: 295px;
+    overflow: hidden;
+    float: left;
+    background-color: rgba(0,0,0,.5);
+}
+.recommend li:hover {
+    background-color: #31c27c;
+}
+.recommend li:nth-child(2n):hover {
+    background-color: #31c27c;
+}
+.father-img {
+    overflow: hidden;   
+}
+li:hover  img{
+    transform: scale(1.4);
+}
+.recommend li:nth-child(2n) {
+    background-color: rgba(0,0,0,.3);
+}
+.recommend img {
+    width: 213px;
+    height: 213px;
+    transition: all 1s;
+    overflow: hidden;
+}
+.recommend .song-name {
+    color: #e3e3e3;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 24px;
+}
+.recommend .singer {
+     color: #7b7b7b;
+     font-size: 14px;
+}
+.hot-song {
+    height: 536px;
+    overflow: hidden;
+}
+.hot-song p:first-child {
+    font-size: 40px;
+    color: #000;
+    font-family: "宋体";
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hot-recommend {
+    width: 852px;
+}
+.hot-recommend li {
+    text-align: center;
+    width: 213px;
+    height: 330px;
+    float: left;
+    background-color: rgba(0,0,0,.8);
+
+}
+.hot-recommend li:hover {
+    background-color: #31c27c;
+}
+.hot-recommend li:nth-child(2n):hover {
+    background-color: #31c27c;
+}
+.hot-recommend img {
+    width: 213px;
+    height: 213px;
+
+}
+.hot-recommend li:nth-child(2n) {
+    background-color: rgba(0,0,0,.7);
+}
+.hot-recommend .song-name {
+    color: #d8d8d8;
+    font-size: 12px;
+    height: 15px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 30px;
+}
+.hot-recommend .singer {
+     color: #838383;
+     font-size: 12px;
+}
+.MV-shoubo {
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+.MV-shoubo .banxin .show2 {
+    width: 852px;
+}
+.MV-shoubo p:first-child {
+    font-size: 40px;
+    color: #000;
+    font-family: "宋体";
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.MV-shoubo .show2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.MV-shoubo .show2 img {
+    height: 120px;
+    width: 213px;
+    transform: scale(1.02);
+}
+.MV-shoubo .show2 li:hover  img{
+    transform: scale(1.4);
+}
+.MV-shoubo .show2 li {
+    width: 213px;
+    float: left;
+    height: 215px;
+}
+.show2 .song-name {
+    padding: 0 18px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #474747;
+}
+.show2 .singer,.play-num {
+    font-size: 12px;
+    color: #9d9a9a;
+}
+.show2 .song-name {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+footer a:hover {
+    color: #31c27c;
+}
+footer .top {
+    height: 220px;
+}
+footer .banxin {
+    overflow: hidden;
+}
+.link-left {
+    width: 329px; 
+    float: left;
+    padding-left: 7px;
+}
+.link-left:nth-child(2) {
+    width: 297px;
+}
+.link-left .box {
+    height: 45px;
+    width: 48px;
+    margin: 0 17px;
+    background: url(img/footer1.png) no-repeat;
+    background-position: -2px -4px;
+}
+.link-left .box2 {
+    background-position: -92px -4px;
+}
+.link-left .box3 {
+    background-position: -186px -4px;
+}
+.link-left .box4 {
+    background-position: -274px -4px;
+}
+.link-left .box5 {
+    background-position: -368px -4px;
+}
+.link-left .box6 {
+    background-position: -460px -4px;
+}
+.link-left .box7 {
+    background-position: -559px -4px;
+}
+.link-left p:first-child {
+    color: #7f7f7f;
+    font-size: 14px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.link-left li {
+    text-align: center;
+    float: left;
+}
+.link-left li:hover .box1{
+    background-position: -2px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box2{
+    background-position: -92px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box3{
+    background-position: -186px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box4{
+    background-position: -274px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box5{
+    background-position: -368px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box6{
+    background-position: -460px -53px;
+    color: #31c27c;
+}
+.link-left li:hover .box7{
+    background-position: -559px -53px;
+    color: #31c27c;
+}
+.link-left li:hover p {
+    color: #31c27c;
+}
+.link-left li p {
+    color: #7f7f7f;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.link-right {
+    overflow: hidden;
+}
+.link-right p:first-child {
+    color: #7f7f7f;
+    font-size: 14px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.link-right ul {
+    width: 70px;
+    float: left;
+}
+.link-right a {
+    display: block;
+    font-size: 10px;
+    color: #7f7f7f;
+    padding: 4px 0;
+}
+.center {
+    height: 100px;
+    border-bottom: 1px solid #323232;
+    /*margin-bottom: 2px solid transparent;*/
+}
+.center p {
+    font-size: 14px;
+    color: #7f7f7f;
+    margin-left: 7px;
+    margin-bottom: 35px;
+}
+.center ul {
+    margin-left: 7px;
+
+}
+.center li {
+     float: left;
+     margin-right: 20px;
+}
+.center a {
+    color: #7f7f7f;
+    font-size: 12px;
+}
+.foot {
+    height: 95px;
+    text-align: center;
+    border-top: 1px solid #323232;
+    margin-top: 2px;
+}
+.foot .top {
+    text-align: center;
+    color: #7f7f7f;
+    font-size: 14px;
+    height: 20px;
+    margin-top: 20px;
+
+}
+.foot a {
+    color: #7f7f7f;
+    font-size: 14px;
+}
+.foot p {
+    color: #7f7f7f;
+    font-size: 14px;
+    height: 20px;
+}
